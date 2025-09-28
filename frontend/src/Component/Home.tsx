@@ -131,7 +131,14 @@ export default function Home() {
               Pricing
             </a>
           </div>
-
+          <div className="flex items-center gap-2">
+                        <Button  className="flex bg-gradient-to-r from-indigo-500 to-fuchsia-500 text-white shadow-lg shadow-fuchsia-600/20">
+                            <Github className="mr-2" /> Star
+                        </Button>
+                        <Button className="bg-gradient-to-r from-indigo-500 to-fuchsia-500 text-white shadow-lg shadow-fuchsia-600/20">
+                            Launch App
+                        </Button>
+         </div>
           {/* Mobile hamburger */}
           <div className="md:hidden">
             <button className="p-2 rounded-md bg-white/5 hover:bg-white/10">
