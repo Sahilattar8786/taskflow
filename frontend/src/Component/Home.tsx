@@ -131,7 +131,7 @@ export default function Home() {
               Pricing
             </a>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-2 md:d-none">
                         <Button  className="flex bg-gradient-to-r from-indigo-500 to-fuchsia-500 text-white shadow-lg shadow-fuchsia-600/20">
                             <Github className="mr-2" /> Star
                         </Button>
