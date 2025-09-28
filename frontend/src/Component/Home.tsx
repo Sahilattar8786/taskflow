@@ -1,9 +1,9 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import Button from "../components/ui/button";
-import Card, { CardContent, CardHeader, CardTitle } from "../components/ui/card";
-import Badge from "../components/ui/badge";
-import Input from "../components/ui/input";
+import { Button } from "../components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "../components/ui/card";
+import { Badge } from "../components/ui/badge";
+import { Input } from "../components/ui/input";
 import {
     Check,
     Zap,
@@ -171,7 +171,7 @@ export default function Home() {
                                 <Mail className="ml-1 h-5 w-5 text-neutral-300" />
                                 <Input
                                     value={email}
-                                    onChange={(e) => setEmail(e.target.value)}
+                                    onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEmail(e.target.value)}
                                     placeholder="Work email"
                                     className="border-0 bg-transparent text-white placeholder:text-neutral-400 focus-visible:ring-0"
                                 />
