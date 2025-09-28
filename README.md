@@ -1,6 +1,6 @@
 # 🚀 TaskFlow – Lightweight Project Management Tool
 
-**TaskFlow** is an **open-source SaaS-style project management tool** built for **early-stage startups and small teams** who want a simple yet powerful way to manage their work.  
+**TaskFlow** is an SaaS-style project management tool** built for **early-stage startups and small teams** who want a simple yet powerful way to manage their work.  
 
 In the **first phase**, TaskFlow is focused on **developers** — helping tech founders assign tasks, track sprints, and collaborate effectively.  
 In the **next phase**, TaskFlow will expand to **sales, marketing, and other teams**, making it a complete all-in-one solution for startups.  
