@@ -1,5 +1,4 @@
-// Minimal Button component
-export default function Button({
+export function Button({
     children,
     className = "",
     ...props
@@ -13,10 +12,3 @@ export default function Button({
       </button>
     );
   }
-  
-
-  
-  // Minimal Badge
-
-  
-  // Minimal Input
