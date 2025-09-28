@@ -10,12 +10,12 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: frontend  # important: run everything inside frontend folder
+        working-directory: frontend   # run all commands inside frontend
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Setup Node
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
@@ -28,13 +28,10 @@ jobs:
       - name: Build project
         run: npm run build
 
-      # Deploy to Vercel
       - name: Deploy to Vercel
         uses: amondnet/vercel-action@v25
         with:
-          vercel-token: ${{ secrets.VERCEL_TOKEN }}     # add this in GitHub repo secrets
-          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}   # from your Vercel settings
-          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }} # from your Vercel settings
-          working-directory: ./frontend
-          scope: ${{ secrets.VERCEL_SCOPE }}  # optional, if you’re in a Vercel team
-          
+          vercel-token: ${{ secrets.VERCEL_TOKEN }}
+          vercel-org-id: ${{ secrets.VERCEL_ORG_ID }}
+          vercel-project-id: ${{ secrets.VERCEL_PROJECT_ID }}
+          vercel-args: '--prod'
