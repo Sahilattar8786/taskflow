@@ -37,7 +37,7 @@ const features = [
     {
         icon: Bot,
         title: "Plain English → Tasks",
-        desc: `Say "Fix checkout bug, assign to Rahul by Friday" — Taskflow creates the task, sets the deadline, and notifies.`,
+        desc: `Say "Fix checkout bug, assign to Rahul by Friday" — Taskpilot creates the task, sets the deadline, and notifies.`,
     },
     {
         icon: Workflow,
@@ -115,7 +115,7 @@ export default function Home() {
                             <Sparkles className="h-5 w-5" />
                         </div>
                         <div className="text-lg font-semibold tracking-tight">
-                            taskflow<span className="text-fuchsia-400">.ai</span>
+                            Taskpilot<span className="text-fuchsia-400">.ai</span>
                         </div>
                         <Badge className="ml-2 bg-white/10 text-white/80 hover:bg-white/10">
                             AI Project Manager for Founders
@@ -162,7 +162,7 @@ export default function Home() {
                             </span>
                         </h1>
                         <p className="mt-4 max-w-xl text-pretty text-neutral-300 md:text-lg">
-                            Taskflow.ai helps non-technical founders manage 10–15 person teams.
+                            Taskpilot.ai helps non-technical founders manage 10–15 person teams.
                             Assign tasks in plain English, sync with Google Calendar, and get AI
                             progress updates — without Jira overload.
                         </p>
@@ -324,9 +324,9 @@ export default function Home() {
             <section id="workflow" className="mx-auto max-w-7xl px-4 py-16">x
                 <div className="grid gap-6 md:grid-cols-2">
                     <div>
-                        <h3 className="text-2xl font-semibold">How Taskflow works</h3>
+                        <h3 className="text-2xl font-semibold">How Taskpilot works</h3>
                         <p className="mt-2 text-neutral-300">
-                            No sprints, no tickets. Just tell Taskflow in plain English what needs to be done,
+                            No sprints, no tickets. Just tell Taskpilot in plain English what needs to be done,
                             and it handles the rest — assigning, scheduling, and updating your team.
                         </p>
                         <ul className="mt-6 space-y-3 text-neutral-300">
@@ -336,7 +336,7 @@ export default function Home() {
                             </li>
                             <li className="flex items-start gap-3">
                                 <Check className="mt-1 h-5 w-5 text-emerald-400" />
-                                <span><strong>Taskflow creates:</strong> task assigned to the right person with a deadline.</span>
+                                <span><strong>Taskpilot creates:</strong> task assigned to the right person with a deadline.</span>
                             </li>
                             <li className="flex items-start gap-3">
                                 <Check className="mt-1 h-5 w-5 text-emerald-400" />
@@ -387,7 +387,7 @@ export default function Home() {
                 <div className="mt-6 grid gap-4 md:grid-cols-2">
                     <Faq
                         q="Is this for non-technical founders?"
-                        a="Yes. Taskflow is designed so you don’t need to know Jira, sprints, or dev tooling to manage your team."
+                        a="Yes. Taskpilot is designed so you don’t need to know Jira, sprints, or dev tooling to manage your team."
                     />
                     <Faq
                         q="Does it integrate with Google Calendar?"
@@ -409,7 +409,7 @@ export default function Home() {
                 <div className="mx-auto grid max-w-7xl grid-cols-1 gap-6 px-4 py-10 md:grid-cols-4">
                     <div>
                         <div className="text-lg font-semibold">
-                            taskflow<span className="text-fuchsia-400">.ai</span>
+                            Taskpilot<span className="text-fuchsia-400">.ai</span>
                         </div>
                         <p className="mt-2 text-sm text-neutral-400">
                             AI Project Manager for Founders
@@ -445,7 +445,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="border-t border-white/10 py-6 text-center text-xs text-neutral-500">
-                    © {new Date().getFullYear()} Taskflow.ai — All rights reserved.
+                    © {new Date().getFullYear()} Taskpilot.ai — All rights reserved.
                 </div>
             </footer>
         </div>
